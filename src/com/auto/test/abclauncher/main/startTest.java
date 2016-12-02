@@ -10,6 +10,5 @@ public class startTest {
     public static void main(String args[]) throws InterruptedException, IOException {
 		testABCLauncherSharehelper helpTest = new testABCLauncherSharehelper();
 		helpTest.runBatFile();
-		//abc上班聚
     }
 }
