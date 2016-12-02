@@ -34,7 +34,7 @@ public class testABCLauncher_Searcher extends UiAutomatorTestCase{
 		if(startButt.exists()){
 			startButt.clickAndWaitForNewWindow(2000);
 		}
-		for(int i=0;i<8;i++){
+		for(int i=0;i<9;i++){
 			if(new UiObject(new UiSelector().resourceId("com.abclauncher.launcher:id/unlock_tips_text")).exists()){
 				getUiDevice().pressBack();
 				Thread.sleep(3000);
