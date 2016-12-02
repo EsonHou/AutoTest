@@ -40,7 +40,7 @@ public class testABCLauncher_Searcher extends UiAutomatorTestCase{
 				Thread.sleep(3000);
 				break;
 			}
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 		}
 	}
 }
