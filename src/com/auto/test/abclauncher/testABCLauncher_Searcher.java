@@ -18,6 +18,8 @@ public class testABCLauncher_Searcher extends UiAutomatorTestCase{
 		helpTest.separateOfClass("testABCLauncher_Searcher");
 		optionhelper.startAnimation();
 		super.setUp();
+		
+		
 	}
 
 	@Override
